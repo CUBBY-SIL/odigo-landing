@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Lato';
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: $text-white;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import '_banner-section.scss';
+
+@media(max-width:850px){
+    .menu-container{
+        padding: 0 25px;
+    }
+    .menu-list{
+        gap: 40px;
+    }
+    .banner-container{
+        padding-top: 100px;
+    }
+}
+
+@media(max-width:560px){
+    .menu-list{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .drop-down-menu{
+        display: block;
+    }
+    #header-section{
+        padding: 30px 0;
+    }
+    .banner-container{
+        padding: 0 30px;
+        padding-top: 30px;
+        margin-bottom: 40px;
+    } 
+}
+@media(max-width:420px){
+    .drop-down-menu{
+        width: 100%;
+    }
+}
