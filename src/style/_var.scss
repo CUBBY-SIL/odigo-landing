@@ -1,0 +1,18 @@
+$text-main-color: #102746;
+$text-white: #fff;
+$text-links: #006DFE;
+
+@mixin button-reset {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@mixin paragraph-format{
+  color: $text-main-color;
+  font-weight: 400;
+  line-height: 24px;
+}
