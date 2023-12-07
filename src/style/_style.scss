@@ -29,6 +29,7 @@ a{
 }
 
 @import '_banner-section.scss';
+@import '_benefits-section.scss';
 
 @media(max-width:850px){
     .menu-container{
@@ -39,6 +40,13 @@ a{
     }
     .banner-container{
         padding-top: 100px;
+    }
+    .container-benefits{
+        padding: 50px 30px;
+        // margin-top: -260px;
+    }
+    .benefits-title{
+        margin-bottom: 60px;
     }
 }
 
@@ -59,7 +67,22 @@ a{
         padding: 0 30px;
         padding-top: 30px;
         margin-bottom: 40px;
-    } 
+    }
+    .container-benefits{
+        padding: 20px 30px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .benefits-title{
+        margin-bottom: 40px;
+    }
+    .benefits-list{
+        gap: 0;
+        row-gap: 30px;
+        .benefits-list__item{
+            gap: 15px;
+        }
+    }
 }
 @media(max-width:420px){
     .drop-down-menu{
