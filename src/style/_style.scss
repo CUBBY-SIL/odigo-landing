@@ -31,6 +31,19 @@ a{
 @import '_banner-section.scss';
 @import '_benefits-section.scss';
 @import '_inspired-section.scss';
+@import '_prefecture-section.scss';
+
+@media(max-width:768px){
+    .size-lg, .size-md{
+        grid-column: span 6;
+    }
+    .inspired-places__item_img{
+        height: 170px;
+    }
+    .inspired-container-link{
+        gap: 5px;
+    }
+}
 
 @media(max-width:850px){
     .menu-container{
@@ -48,6 +61,27 @@ a{
     }
     .benefits-title{
         margin-bottom: 60px;
+    }
+    .inspired-section{
+        margin-bottom: 70px;
+    }
+    .pr-ng-item{
+        flex-direction: column;
+        &:nth-child(even){
+            flex-direction: column;
+        }
+    }
+    .pr-ng-item__container_img{
+        height: 300px;
+    }
+    .pr-ng-item__info{
+        padding: 20px 10px;
+        .pr-ng-item__title{
+            margin-bottom: 25px;
+        }
+        .pr-ng-item__text{
+            margin-bottom: 30px;
+        }
     }
 }
 
@@ -83,6 +117,12 @@ a{
         .benefits-list__item{
             gap: 15px;
         }
+    }
+    .inspired-caption{
+        margin-bottom: 20px;
+    }
+    .prefecture-neighborhood-section{
+        margin-bottom: 60px;
     }
 }
 @media(max-width:420px){

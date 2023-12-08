@@ -1,0 +1,60 @@
+.prefecture-neighborhood-section{
+    display: grid;
+    row-gap: 50px;
+    margin-bottom: 130px;
+    overflow: hidden;
+}
+.pr-ng-item{
+    display: flex;
+    column-gap: 50px;
+    &:nth-child(even){
+        flex-direction: row-reverse;
+    }
+}
+.pr-ng-item__container_img{
+    height: 354px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+.pr-ng-item__info{
+    padding: 25px 35px;
+    padding-left: 55px;
+    max-width: 600px;
+    width: 100%;
+}
+.pr-ng-item__title{
+    color: $text-main-color;
+    font-size: calc(18px + 12 * (100vw / 1440));
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+.pr-ng-item__text{
+    @include paragraph-format;
+    margin-bottom: 60px;
+}
+
+.pr-ng-item__img{
+    box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+    
+    img{
+        display: block;
+    }
+}
+.pr-ng-item__link{
+    color: $text-links;
+    text-transform: uppercase;
+    display: flex;
+    .size-arrow{
+        font-size: 25px;
+    }
+    a{
+        color: $text-links;
+        display: flex;
+        gap: 25px;
+        justify-self: flex-start;
+    }
+}
