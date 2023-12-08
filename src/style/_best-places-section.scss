@@ -1,0 +1,68 @@
+.best-places-section{
+    overflow: hidden;
+    margin-bottom: 130px;
+    .best-places-caption{
+        display: flex;
+        align-items: center;
+        margin-bottom: 45px;
+    }
+    .best-places-title{
+        color: $text-main-color;
+        // font-size: 35px;
+        font-size: calc(18px + 17 * (100vw / 1440));
+        padding-right: 20px;
+        font-weight: 700;
+    }
+}
+.best-places-list{
+    display: flex;
+    row-gap: 55px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.best-places-list__item{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: calc(100% / 3 - 55px * 2 / 3);
+}
+.best-places-list_item_info{
+    @include paragraph-format;
+}
+.best-places-list__item_img {
+    position: relative;
+    img{
+        display: block;
+    } 
+}
+.img-caption{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 15px 25px;
+    background: rgba(21, 24, 36, 0.60);
+    color: $text-white;
+    display: flex;
+    align-items: center;
+    .img-caption__title{
+        text-transform: uppercase;
+        line-height: 24px;
+        // font-size: 18px;
+        font-size: calc(14px + 4 * (100vw / 1440));
+    }
+}
+.img-caption__activity{
+    margin-left: auto;
+    display: flex;
+    gap: 15px;
+    font-size: calc(14px + 2 * (100vw / 1440));
+}
+.best-places-list__item_btn{
+    @include button-reset;
+    padding: 12px 20px;
+    background: #006DFE;
+    color: $text-white;
+    text-transform: uppercase;
+    max-width: 130px;
+}

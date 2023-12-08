@@ -32,6 +32,7 @@ a{
 @import '_benefits-section.scss';
 @import '_inspired-section.scss';
 @import '_prefecture-section.scss';
+@import '_best-places-section.scss';
 
 @media(max-width:768px){
     .size-lg, .size-md{
@@ -83,6 +84,10 @@ a{
             margin-bottom: 30px;
         }
     }
+    .best-places-list__item{
+        gap: 20px;
+        width: calc(100% / 2 - 55px / 2);
+    }
 }
 
 @media(max-width:560px){
@@ -123,6 +128,19 @@ a{
     }
     .prefecture-neighborhood-section{
         margin-bottom: 60px;
+    }
+    .best-places-section{
+        margin-bottom: 60px;
+        .best-places-caption{
+            margin-bottom: 20px;
+        }
+    }
+    .best-places-list__item{
+        gap: 20px;
+        width: 100%;
+    }
+    .best-places-list__item_btn{
+        max-width: 100%;
     }
 }
 @media(max-width:420px){
