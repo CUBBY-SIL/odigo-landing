@@ -1,0 +1,26 @@
+#footer-section{
+    background: #0E1D28;
+}
+.footer-container{
+    padding: 120px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: $text-white;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    padding: 0 25px;
+}
+.footer-info{
+    display: flex;
+    gap: calc(10px + 90 * (100vw / 1440));
+}
+.company-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}

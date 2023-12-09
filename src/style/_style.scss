@@ -33,6 +33,7 @@ a{
 @import '_inspired-section.scss';
 @import '_prefecture-section.scss';
 @import '_best-places-section.scss';
+@import '_footer-section.scss';
 
 .video-banner-section{
     width: 100%;
@@ -61,6 +62,9 @@ a{
     }
     .inspired-container-link{
         gap: 5px;
+    }
+    .footer-container{
+        row-gap: 45px;
     }
 }
 
@@ -105,6 +109,9 @@ a{
     .best-places-list__item{
         gap: 20px;
         width: calc(100% / 2 - 55px / 2);
+    }
+    .footer-container{
+        padding: 80px 50px;
     }
 }
 
@@ -159,6 +166,9 @@ a{
     }
     .best-places-list__item_btn{
         max-width: 100%;
+    }
+    .footer-container{
+        padding: 80px 0;
     }
 }
 @media(max-width:420px){
