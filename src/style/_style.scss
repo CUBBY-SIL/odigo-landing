@@ -34,6 +34,24 @@ a{
 @import '_prefecture-section.scss';
 @import '_best-places-section.scss';
 
+.video-banner-section{
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(rgba(21, 24, 36, 0.40), rgba(21, 24, 36, 0.40)),  url('img/video_banner.png');
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    i{
+        color: $text-white;
+        font-size: 120px;
+        cursor: pointer;
+    }
+}
+
 @media(max-width:768px){
     .size-lg, .size-md{
         grid-column: span 6;
