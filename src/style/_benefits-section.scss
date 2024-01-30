@@ -6,12 +6,10 @@
     margin-top: -20vh;
     margin-bottom: 130px;
 }
-
 .benefits-title{
-    font-size: calc(18px + 17 * (100vw / 1440));
+    font-size: calcFontSize(18px, 17);
     margin-bottom: 120px;
 }
-
 .benefits-list{
     display: flex;
     gap: 55px;

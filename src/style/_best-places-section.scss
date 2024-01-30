@@ -8,8 +8,7 @@
     }
     .best-places-title{
         color: $text-main-color;
-        // font-size: 35px;
-        font-size: calc(18px + 17 * (100vw / 1440));
+        font-size: calcFontSize(18px, 17);
         padding-right: 20px;
         font-weight: 700;
     }
@@ -48,15 +47,14 @@
     .img-caption__title{
         text-transform: uppercase;
         line-height: 24px;
-        // font-size: 18px;
-        font-size: calc(14px + 4 * (100vw / 1440));
+        font-size: calcFontSize(14px, 4);
     }
 }
 .img-caption__activity{
     margin-left: auto;
     display: flex;
     gap: 15px;
-    font-size: calc(14px + 2 * (100vw / 1440));
+    font-size: calcFontSize(14px, 2);
 }
 .best-places-list__item_btn{
     @include button-reset;

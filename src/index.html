@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odigo Travel</title>
+    <meta name="description" content="We will help you choose a tour that will make you come back to us again. For a vacation, please contact us!">
     <script src="https://kit.fontawesome.com/e4878a7996.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/free-icon-mountain-4135908.png">
 </head>
-<body>
+<body class="active-loader">
+    <div class="preloader">
+        <img alt="loader" src="./img/loader.svg">
+    </div>
     <section class="banner-section">
-        <header id="header-section">
+        <header id="header">
             <div class="container">
-                <div class="menu-wrapper">
-                    <nav class="menu-container">
-                        <div class="header-logo">
-                            <a href="#"><img src="img/odigo-Logo.png"></a>
-                        </div>
-                        <div class="toggle-btn">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                        <ul class="drop-down-menu">
-                            <li class="menu-list__item"><a href="#">Articles</a></li>
-                            <li class="menu-list__item"><a href="#">Locations</a></li>
-                            <li class="menu-list__item"><a href="#">Videos</a></li>
-                            <li class="menu-list__item"><a href="#">Sign in</a></li>
-                        </ul>
-                        <ul class="menu-list">
-                            <li class="menu-list__item"><a href="#">Articles</a></li>
-                            <li class="menu-list__item"><a href="#">Locations</a></li>
-                            <li class="menu-list__item"><a href="#">Videos</a></li>
-                            <li class="menu-list__item"><a href="#">Sign in</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="menu-container">
+                    <div class="menu-logo">
+                        <a href="#"><img alt="logo" title="odigo" src="img/odigo-Logo.png"></a>
+                    </div>
+                    <div class="toggle-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="drop-down-menu">
+                        <li class="menu-list__item"><a href="#">Articles</a></li>
+                        <li class="menu-list__item"><a href="#">Locations</a></li>
+                        <li class="menu-list__item"><a href="#">Videos</a></li>
+                        <li class="menu-list__item"><a href="#">Sign in</a></li>
+                    </ul>
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a href="#">Articles</a></li>
+                        <li class="menu-list__item"><a href="#">Locations</a></li>
+                        <li class="menu-list__item"><a href="#">Videos</a></li>
+                        <li class="menu-list__item"><a href="#">Sign in</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -62,7 +64,7 @@
                 <div class="benefits-list">
                     <div class="benefits-list__item">
                         <div class="benefits-list__item__img">
-                            <img src="img/benefits/church.png">
+                            <img alt="church" title="church" src="img/benefits/church.png">
                         </div>
                         <div class="benefits-list__item__title">
                             <h3>Welcome to Odigo!</h3>
@@ -76,7 +78,7 @@
                     </div>
                     <div class="benefits-list__item">
                         <div class="benefits-list__item__img">
-                            <img src="img/benefits/man.png">
+                            <img alt="human" title="human" src="img/benefits/man.png">
                         </div>
                         <div class="benefits-list__item__title">
                             <h3>Your Personal Japan Guide</h3>
@@ -90,7 +92,7 @@
                     </div>
                     <div class="benefits-list__item">
                         <div class="benefits-list__item__img">
-                            <img src="img/benefits/shop.png">
+                            <img alt="shop" title="shop" src="img/benefits/shop.png">
                         </div>
                         <div class="benefits-list__item__title">
                             <h3>Promoting Local Businesses</h3>
@@ -122,7 +124,7 @@
                 <div class="inspired-places-container">
                     <div class="inspired-places__item size-lg" data-aos="fade-right">
                         <div>
-                            <img class="inspired-places__item_img" src="img/inspired_places/fuji.png">
+                            <img alt="fuji" title="fuji" class="inspired-places__item_img" src="img/inspired_places/fuji.png">
                         </div>
                         <div class="inspired-places__item_place">
                             Mount Fuji
@@ -130,7 +132,7 @@
                     </div>
                     <div class="inspired-places__item size-lg" data-aos="fade-left">
                         <div>
-                            <img class="inspired-places__item_img" src="img/inspired_places/kyoto.png">
+                            <img alt="kyoto" title="kyoto" class="inspired-places__item_img" src="img/inspired_places/kyoto.png">
                         </div>
                         <div class="inspired-places__item_place">
                             Kyoto
@@ -138,7 +140,7 @@
                     </div>
                     <div class="inspired-places__item size-md size-full" data-aos="fade-up">
                         <div>
-                            <img class="inspired-places__item_img" src="img/inspired_places/tokyo.png">
+                            <img alt="tokyo" title="tokyo" class="inspired-places__item_img" src="img/inspired_places/tokyo.png">
                         </div>
                         <div class="inspired-places__item_place">
                             Tokyo
@@ -146,7 +148,7 @@
                     </div>
                     <div class="inspired-places__item size-md" data-aos="fade-up">
                         <div>
-                            <img class="inspired-places__item_img" src="img/inspired_places/niigata.png">
+                            <img alt="niigata" title="niigata" class="inspired-places__item_img" src="img/inspired_places/niigata.png">
                         </div>
                         <div class="inspired-places__item_place">
                             Niigata
@@ -154,7 +156,7 @@
                     </div>
                     <div class="inspired-places__item size-md" data-aos="fade-up">
                         <div>
-                            <img class="inspired-places__item_img" src="img/inspired_places/sapporo.png">
+                            <img alt="sapporo" title="sapporo" class="inspired-places__item_img" src="img/inspired_places/sapporo.png">
                         </div>
                         <div class="inspired-places__item_place">
                             Sapporo
@@ -166,7 +168,7 @@
             <section class="prefecture-neighborhood-section">
                 <div class="pr-ng-item">
                     <div class="pr-ng-item__container_img" data-aos="fade-right">
-                        <img class="pr-ng-item__img" src="img/prefecture.png">
+                        <img alt="prefecture" title="prefecture" class="pr-ng-item__img" src="img/prefecture.png">
                     </div>
                     <div class="pr-ng-item__info" data-aos="fade-left">
                         <div class="pr-ng-item__title">
@@ -192,7 +194,7 @@
                 </div>
                 <div class="pr-ng-item">
                     <div class="pr-ng-item__container_img" data-aos="fade-left">
-                        <img class="pr-ng-item__img" src="img/neighborhood.png">
+                        <img alt="neighborhood" title="neighborhood" class="pr-ng-item__img" src="img/neighborhood.png">
                     </div>
                     <div class="pr-ng-item__info" data-aos="fade-right">
                         <div class="pr-ng-item__title">
@@ -227,7 +229,7 @@
                 <div class="best-places-list">
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/nagoya.png">
+                            <img alt="nagoya" title="nagoya" src="img/best_places/nagoya.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>NAGOYA</h4>
@@ -257,7 +259,7 @@
                     </div>
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/NIIGATA.png">
+                            <img alt="NIIGATA" title="NIIGATA" src="img/best_places/NIIGATA.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>niigata</h4>
@@ -287,7 +289,7 @@
                     </div>
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/OSAKA.png">
+                            <img alt="OSAKA" title="OSAKA" src="img/best_places/OSAKA.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>osaka</h4>
@@ -317,7 +319,7 @@
                     </div>
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/saitama.png">
+                            <img alt="saitama" title="saitama" src="img/best_places/saitama.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>saitama</h4>
@@ -347,7 +349,7 @@
                     </div>
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/ueno.png">
+                            <img alt="ueno" title="ueno" src="img/best_places/ueno.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>ueno</h4>
@@ -377,7 +379,7 @@
                     </div>
                     <div class="best-places-list__item" data-aos="flip-up">
                         <div class="best-places-list__item_img">
-                            <img src="img/best_places/SHIBUYA.png">
+                            <img alt="SHIBUYA" title="SHIBUYA" src="img/best_places/SHIBUYA.png">
                             <div class="img-caption" data-aos="fade" data-aos-delay="300">
                                 <div class="img-caption__title">
                                     <h4>shibuya</h4>
@@ -418,7 +420,7 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-logo">
-                    <img src="img/odigo-Logo.png">
+                    <img alt="logo" title="odigo" src="img/odigo-Logo.png">
                 </div>
                 <div class="footer-info">
                     <div class="footer-info__item">

@@ -9,17 +9,14 @@
 }
 .inspired-title{
     color: $text-main-color;
-    // font-size: 35px;
-    font-size: calc(18px + 17 * (100vw / 1440));
+    font-size: calcFontSize(18px, 17);
     padding-right: 20px;
     font-weight: 700;
 }
 .inspired-container-link{
     margin-left: auto;
-    
     color: $text-links;
     text-transform: uppercase;
-    
     a{
         color: $text-links;
         display: flex;
@@ -39,7 +36,6 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    
     &:hover{
         img{
             transform: scale(1.1);
