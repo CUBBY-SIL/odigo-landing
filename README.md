@@ -1,12 +1,12 @@
-# Проект: Лэндинг туристической фирмы Odigo Travel
+# Проект: Туристическая фирма Odigo Travel
 
 ## Технологии
-![HTML5](https://img.shields.io/badge/-HTML5-e34f26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572b6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-f7df1e?logo=javaScript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+![SCSS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ## Библиотеки
-![AOS.js](https://img.shields.io/badge/-AOS.js-yellowgreen) - анимации при скролле
+![AOS.js](https://img.shields.io/badge/AOS.js-E34F26?style=for-the-badge) - анимации при скролле
 
 1. Проект разрабатывался с применением адаптивной и резиновой верстки - использованы flex, grid, медиа запросы, адаптивные размеры шрифта.
 
